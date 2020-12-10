@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: rgb(59, 59, 59);
+  text-rendering: optimizeLegibility;
+  color: #fff;
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.container {
+  display: grid;
+  /*grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; */
+  grid-gap: 2px;
+}
+.container div {
+  /*background-color: #a3cb38;*/
+  font-size: 80%;
+  font-weight: bold;
+  color: rgb(59, 59, 59);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container div::before {
+  content: '';
+  padding-bottom: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.row {
+  max-width: 60%;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.grid {
+  width: 40%;
+}
+
+.grid-p1 {
+  float: left;
+}
+
+.grid-p2 {
+  float: right;
+}
+
+.status {
+  display: inline;
+  padding: 5px;
+}
+
+.status-player {
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.status-icon {
+  font-size: 110%;
+}
+
+.block-input {
+  margin: 10px 0;
+}
+
+.block-input a,
+input {
+  padding: 10px;
+  margin: 0 5px;
+}
+
+.input {
+  width: 50px;
+  font-size: 140%;
+  border-radius: 10px;
+  border: 0px;
+  text-transform: uppercase;
+}
+
+.btn {
+  background-color: orange;
+  border-radius: 20px;
+  color: rgb(59, 59, 59);
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.block-start {
+  margin-top: 20px;
+}
+
+.cell {
+  background-color: #a3cb38;
+  font-size: 100%;
+}
+
+.cell-colpito {
+  background-color: red;
+}
+
+.cell-acqua {
+  background-color: rgb(38, 179, 245);
+}
