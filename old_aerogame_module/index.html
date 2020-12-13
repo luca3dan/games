@@ -1,0 +1,52 @@
+<!--
+  http://buildnewgames.com/js-game-code-org/
+  https://addyosmani.com/resources/essentialjsdesignpatterns/book/
+-->
+<html>
+  <header>
+    <title>SP GA 1</title>
+    <style>
+      body {
+        background: white;
+      }
+
+      #gcanvas {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+      }
+
+      #gcanvas2 {
+        position: absolute;
+        left: 130px;
+        top: 0px;
+        display: none;
+      }
+
+      #gcanvas3 {
+        position: absolute;
+        left: 260px;
+        top: 0px;
+        display: none;
+      }
+
+      img {
+        display: none;
+      }
+    </style>
+  </header>
+
+  <body>
+    <img src="img/sprites.png" id="sprites" />
+    <canvas width="120" height="240" id="gcanvas"></canvas>
+    <canvas width="120" height="240" id="gcanvas2"></canvas>
+    <canvas width="120" height="240" id="gcanvas3"></canvas>
+    <script src="js/global.js"></script>
+    <script src="js/utility.js"></script>
+    <script src="js/cloud.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/collisionDet.js"></script>
+    <script src="js/game.js"></script>
+  </body>
+</html>

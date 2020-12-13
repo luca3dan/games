@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Bowlby+One+SC");
+
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 0;
+}
+#campo {
+  position: absolute;
+  background-color: #292824;
+  left: 0%;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+}
+#palla {
+  position: absolute;
+  background-color: #ffffff;
+  width: 3vw;
+  height: 3vw;
+  border-radius: 50%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+#player1 {
+  position: absolute;
+  background-color: #ffffff;
+  width: 3vw;
+  height: 20%;
+  left: 2vw;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+#player2 {
+  position: absolute;
+  background-color: #ffffff;
+  width: 3vw;
+  height: 20%;
+  right: 2vw;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+#player1score {
+  position: absolute;
+  color: #ffffff;
+  left: 3%;
+  top: 5%;
+}
+#player2score {
+  position: absolute;
+  color: #ffffff;
+  right: 3%;
+  top: 5%;
+}
+#messaggio {
+  margin: 0 auto;
+  width: 50vw;
+  text-align: center;
+}
+
+.uistyle {
+  color: #c91919;
+  font-family: "Bowlby One SC", cursive;
+  font-size: 6vw;
+}
